@@ -12,6 +12,8 @@ class Animal{
         if (fullArgumants.equalsIgnoreCase("bird")) {
             output = getBirdGreeting();
         }
+        else 
+            output = getDefaultGreeting();
         System.out.println(output);
     }
 }
